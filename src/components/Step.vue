@@ -9,7 +9,7 @@
           <div class="absolute top-0 left-0">
             <font-awesome :icon="['far', 'heart']" size="10x" style="color: red; filter: drop-shadow(8px 4px 4px #666);" />
           </div>
-          <div class="absolute top-15 left-15">
+          <div class="absolute top-15 left-15 text-shadow text-3xl">
             Moin
           </div>
         </div>
