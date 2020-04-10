@@ -10,6 +10,8 @@
       <step />
     </section>
 
+    <footer />
+
   </Layout>
 </template>
 
@@ -18,8 +20,8 @@ import Step from "~/components/Step.vue"
 import Hero from "~/components/Hero.vue"
 export default {
   components: {
+    Hero,
     Step,
-    Hero
   },
   metaInfo: {
     title: 'Hello, world!'
