@@ -1,30 +1,28 @@
 <template>
   <Layout>
 
-    <h1>Hello, world!</h1>
+    <hero />
 
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
-
-    <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-    </p>
+    <section class="mt-32">
+      <h2>So funktioniert es:</h2>
+      <step />
+      <step />
+      <step />
+    </section>
 
   </Layout>
 </template>
 
 <script>
+import Step from "~/components/Step.vue"
+import Hero from "~/components/Hero.vue"
 export default {
+  components: {
+    Step,
+    Hero
+  },
   metaInfo: {
     title: 'Hello, world!'
   }
 }
 </script>
-
-<style>
-.home-links a {
-  margin-right: 1rem;
-}
-</style>
