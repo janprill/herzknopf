@@ -3,6 +3,16 @@
     <h3 class="text-lg leading-6 font-medium text-gray-900">
       Headline
     </h3>
+
+    <div class="flex">
+      <div class="w-1/5 bg-gray-500 h-12"></div>
+      <div class="w-3/5 bg-gray-400 h-12"></div>
+      <div class="w-1/5 bg-gray-500 h-12"></div>
+    </div>
+
+
+
+
     <div class="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-3">
       <div class="bg-white overflow-hidden shadow rounded-lg">
         <div class="relative px-4 py-5 sm:p-6 h-40">
