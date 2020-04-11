@@ -15,4 +15,10 @@ export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
   Vue.component('font-awesome', FontAwesomeIcon)
+
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,500;0,900;1,700&display=swap'
+  })
 }
+

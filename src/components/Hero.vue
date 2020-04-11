@@ -1,16 +1,7 @@
 <template>
-  <div
-    class="relative pt-16 pb-32 flex content-center items-center justify-center"
-    style="min-height: 75vh;"
-  >
-    <div
-      class="absolute top-0 w-full h-full bg-center bg-cover"
-      style='background-image: url("https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1267&amp;q=80");'
-    >
-      <span
-        id="blackOverlay"
-        class="w-full h-full absolute opacity-75 bg-black"
-      ></span>
+  <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 75vh;">
+    <div class="absolute top-0 w-full h-full bg-center bg-cover" style='background: linear-gradient(316.21deg, #690202 2.76%, #A42626 116.62%);'>
+      <!-- <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span> -->
     </div>
     <div class="container relative mx-auto">
       <div class="items-center flex flex-wrap">
