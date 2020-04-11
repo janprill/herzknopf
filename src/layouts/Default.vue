@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);">
     <navbar />
 
     <slot />
