@@ -15,8 +15,9 @@
         <button
           class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
           type="button"
-          v-on:click="toggleNavbar()">
-          <i class="text-white fas fa-bars"></i>
+          v-on:click="toggleNavbar()"
+        >
+          <font-awesome :icon="['fas', 'bars']" size="2x" color="white" />
         </button>
       </div>
       <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none" v-bind:class="{ hidden: !showMenu, block: showMenu }">
@@ -37,15 +38,6 @@
               <i class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg "></i>
               <span class="lg:hidden inline-block ml-2">Star</span>
             </a>
-          </li>
-          <li class="flex items-center">
-            <button
-              class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
-              type="button"
-              style="transition: all 0.15s ease 0s;"
-            >
-              <i class="fas fa-arrow-alt-circle-down"></i> Download
-            </button>
           </li>
         </ul>
       </div>
