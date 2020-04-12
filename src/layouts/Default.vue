@@ -6,6 +6,7 @@
 
     <footer class="mt-24">
       <footer-component />
+      <footer-skewed />
     </footer>
   </div>
 </template>
@@ -13,10 +14,12 @@
 <script>
 import Navbar from "~/components/Navbar.vue"
 import FooterComponent from "~/components/FooterComponent.vue"
+import FooterSkewed from "~/components/FooterSkewed.vue"
 export default {
   components: {
     Navbar,
-    FooterComponent
+    FooterComponent,
+    FooterSkewed
   } 
 }
 </script>

@@ -26,8 +26,6 @@
       </section>
     </main>
 
-    <footer />
-
   </Layout>
 </template>
 
