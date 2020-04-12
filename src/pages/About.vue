@@ -1,7 +1,15 @@
 <template>
   <Layout>
-    <h1>About us</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.</p>
+    <div>
+      <div class="relative -mt-48">
+        <div class="absolute skew-y-3 w-full bg-gray-300 h-96 transform top-0" style="background: linear-gradient(316.21deg, #690202 2.76%, #A42626 116.62%);">
+          Background
+        </div>
+        <div class="absolute">
+          Content
+        </div>
+      </div>
+    </div>
   </Layout>
 </template>
 
