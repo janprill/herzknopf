@@ -1,7 +1,7 @@
 <template>
   <div class="mt-12 mx-auto max-w-screen-xl px-2 md:mt-20 xl:mt-24">
     <div class="lg:grid lg:grid-cols-12 lg:gap-8">
-      <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left font-bold font-fira text-2xl sm:text-xl lg:text-5xl mt-5">
+      <div class="md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left font-bold font-fira text-2xl sm:text-xl lg:text-5xl mt-5">
         <h2 class="mt-1 leading-snug text-gray-700 sm:leading-none">
           Vielleicht wird es noch lange dauern, bis wir uns wieder berühren können. 
         </h2>

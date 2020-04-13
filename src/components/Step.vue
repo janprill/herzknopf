@@ -5,9 +5,9 @@
     </h3>
 
     <div class="lg:flex">
-      <div class="md:w-2/12 bg-gray-500 h-sm">
-        <div class="py-1 sm:p-6">
-          <div class="relative text-center mx-auto md:ml-0">
+      <div class="lg:w-2/12 h-sm">
+        <div class="py-1">
+          <div class="relative text-center mx-auto lg:ml-0">
             <div class="absolute top-0 left-0">
               <div class="hidden lg:block">
                 <i class="far fa-heart fa-10x" style="color: #771d1d; filter: drop-shadow(8px 4px 4px #666);"></i>
@@ -22,11 +22,11 @@
           </div>
         </div>
       </div>
-      <div class="md:w-5/12 bg-gray-400 p-2 font-fira text-xl">
+      <div class="lg:w-5/12 p-2 font-fira text-xl">
         <slot /> 
       </div>
-      <div class="md:w-5/12 bg-gray-500 p-2">
-        <img :src="uri" class="rounded shadow-xl" />
+      <div class="lg:w-5/12 p-2">
+        <img :src="uri" class="rounded shadow-2xl" />
       </div>
     </div>
   </div>

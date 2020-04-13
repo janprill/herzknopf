@@ -27,7 +27,7 @@
       </div>
       <div class="-mt-4 lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none" v-bind:class="{ hidden: !showMenu, block: showMenu }">
         <div class="flex flex-col lg:ml-auto justify-end">
-          <div class="flex text-gray-300 font-fira-cond text-sm">
+          <div class="flex mx-4 mt-4 text-gray-800 lg:mt-0 lg:text-gray-300 font-fira-cond text-sm">
             made with
             <i class="far fa-heart fa-lg mx-1 mt-1"></i>
             by
@@ -39,8 +39,7 @@
         <ul class="flex flex-col lg:flex-row list-none">
           <li class="flex items-center">
             <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#pablo">
-              <i class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg "></i>
-              <span class="lg:hidden inline-block ml-2">Star</span>
+              <span class="inline-block ml-2">Über uns</span>
             </a>
           </li>
         </ul>
