@@ -1,5 +1,5 @@
 <template>
-  <div class="antialiased" style="background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);">
+  <div class="antialiased font-fira" style="background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);">
     <navbar />
 
     <slot />
@@ -9,6 +9,12 @@
     </footer>
   </div>
 </template>
+
+<style scoped>
+  body {
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  }
+</style>
 
 <script>
 import Navbar from "~/components/Navbar.vue"

@@ -10,23 +10,23 @@
           <div class="relative text-center mx-auto md:ml-0">
             <div class="absolute top-0 left-0">
               <div class="hidden lg:block">
-                <i class="far fa-heart fa-10x" style="color: red; filter: drop-shadow(8px 4px 4px #666);"></i>
+                <i class="far fa-heart fa-10x" style="color: #771d1d; filter: drop-shadow(8px 4px 4px #666);"></i>
               </div>
               <div class="block lg:hidden">
-                <i class="far fa-heart fa-6x" style="color: red; filter: drop-shadow(8px 4px 4px #666);"></i>
+                <i class="far fa-heart fa-6x" style="color: #771d1d; filter: drop-shadow(8px 4px 4px #666);"></i>
               </div>
             </div>
-            <div class="absolute top-5 left-7 lg:top-13 lg:left-16 pl-2 text-shadow text-4xl font-black font-fira text-red-600">
+            <div class="absolute top-5 left-7 lg:top-13 lg:left-16 pl-2 text-shadow text-4xl font-black font-fira text-red-900">
               {{ counter }}
             </div>
           </div>
         </div>
       </div>
-      <div class="md:w-5/12 bg-gray-400 p-2">
+      <div class="md:w-5/12 bg-gray-400 p-2 font-fira text-xl">
         <slot /> 
       </div>
       <div class="md:w-5/12 bg-gray-500 p-2">
-        <img :src="uri" class="rounded" />
+        <img :src="uri" class="rounded shadow-xl" />
       </div>
     </div>
   </div>
