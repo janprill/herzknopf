@@ -21,5 +21,12 @@ export default function (Vue, { router, head, isClient }) {
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,500;0,900;1,700&display=swap'
   })
+
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@1,200&display=swap'
+  })
+
+
 }
 

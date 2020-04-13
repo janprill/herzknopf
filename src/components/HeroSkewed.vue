@@ -7,8 +7,8 @@
             <div class="mt-80 font-fira text-4xl text-white font-black leading-snug text-red-200">
               Mit dem Herzbutton kannst Du eine Brücke zu Deinen pflegebedürftigen Angehörigen bauen. 
             </div>
-            <div class="font-light text-2xl text-red-200 mt-3">
-              Wir ermöglichen kostenlose, einfache und sichere Videokonferenzen in Pflegeheime. Auf Knopfdruck. 
+            <div class="font-light text-2xl text-red-200 mt-3 tracking-tight max-w-3xl">
+              Wir ermöglichen kostenlose, einfache und sichere Videoverbindungen in Pflegeheime. Auf Knopfdruck. 
             </div>
           </div>
         </div>

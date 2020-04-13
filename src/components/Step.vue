@@ -10,7 +10,7 @@
           <div class="absolute top-0 left-0">
             <font-awesome :icon="['far', 'heart']" size="10x" style="color: red; filter: drop-shadow(8px 4px 4px #666);" />
           </div>
-          <div class="absolute top-15 left-15 text-shadow text-3xl">
+          <div class="absolute top-13 left-16 pl-2 text-shadow text-4xl font-black font-fira text-red-600">
             {{ counter }}
           </div>
         </div>
