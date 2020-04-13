@@ -27,7 +27,7 @@
       </div>
       <div class="-mt-4 lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none" v-bind:class="{ hidden: !showMenu, block: showMenu }">
         <div class="flex flex-col lg:ml-auto justify-end">
-          <div class="flex">
+          <div class="flex text-gray-300 font-fira-cond text-sm">
             made with
             <font-awesome :icon="['far', 'heart']" size="lg" class="mx-1" />
             by
