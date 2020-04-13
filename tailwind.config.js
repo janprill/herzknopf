@@ -7,6 +7,9 @@ module.exports = {
     fontFamily: {
       'fira': ['Fira Sans', 'sans serif'],
     },
+    height: {
+      'xl': '36rem',
+    },
     extend: {},
   },
   variants: {},
