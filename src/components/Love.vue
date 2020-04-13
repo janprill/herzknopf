@@ -2,10 +2,10 @@
   <div class="mt-8 mx-auto max-w-screen-xl px-2 sm:mt-12 md:mt-20 xl:mt-24">
     <div class="lg:grid lg:grid-cols-12 lg:gap-8">
       <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left font-bold font-fira text-2xl sm:text-xl lg:text-5xl">
-        <h2 class="mt-1 leading-snug text-gray-900 sm:leading-none">
+        <h2 class="mt-1 leading-snug text-gray-700 sm:leading-none">
           Vielleicht wird es noch lange dauern, bis wir uns wieder berühren können. 
         </h2>
-        <h3 class="text-red-700 leading-snug">
+        <h3 class="text-red-700 leading-snug mt-2">
           Aber sehen können wir uns!
         </h3>
       </div>
