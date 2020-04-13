@@ -3,7 +3,7 @@
     <hero-skewed />
 
     <main class="max-w-screen-xl mx-auto">
-      <love class="mt-64" />
+      <love />
 
       <section class="mt-20 max-w-xl text-xl font-fira text-gray-700 leading-snug">
         <p class="">

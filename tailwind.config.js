@@ -9,6 +9,7 @@ module.exports = {
       'fira-cond': ['Fira Sans Condensed', 'sans serif'],
     },
     height: {
+      'lg': '10rem',
       'xl': '36rem',
     },
     extend: {},
