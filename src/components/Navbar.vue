@@ -8,7 +8,12 @@
               <img src="/img/Icon.png" alt="Herzknopf Icon" class="w-14 h-14" />
             </div>
             <div>
-              Herzknopf
+              <div>
+                Herzknopf
+              </div>
+              <div class="text-sm uppercase font-light tracking-tight">
+                Kontakt zu Pflegebedürftigen in der Krise
+              </div>
             </div>
           </div>
         </a>
