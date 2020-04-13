@@ -5,11 +5,11 @@
         <a class="text-4xl font-black font-fira leading-relaxed tracking-wide inline-block mr-4 py-2 whitespace-no-wrap text-white" href="/">
           <div class="flex w-full">
             <div class="mt-2">
-              <img src="/img/Icon.png" alt="Herzbutton Icon" class="w-14 h-14" />
+              <img src="/img/Icon.png" alt="Herzknopf Icon" class="w-14 h-14" />
             </div>
             <div>
               <div>
-                Herzbutton
+                Herzknopf
               </div>
               <div class="text-sm font-light font-fira-cond -mt-2 tracking-tight">
                 Kontakt zu Pflegebedürftigen in der Krise

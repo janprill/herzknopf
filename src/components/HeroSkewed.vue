@@ -5,7 +5,7 @@
         <div class="container mx-auto">
           <div class="p-4 -skew-y-3 transform font-fira max-w-4xl">
             <div class="mt-80 font-fira text-2xl md:text-4xl text-white font-black leading-snug text-red-200">
-              Mit dem Herzbutton kannst Du eine Brücke zu Deinen pflegebedürftigen Angehörigen bauen. 
+              Mit dem Herzknopf kannst Du eine Brücke zu Deinen pflegebedürftigen Angehörigen bauen. 
             </div>
             <div class="font-light text-xl md:text-2xl text-red-200 mt-3 tracking-tight max-w-3xl">
               Wir ermöglichen kostenlose, einfache und sichere Videoverbindungen in Pflegeheime. Auf Knopfdruck. 

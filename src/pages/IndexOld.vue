@@ -1,18 +1,19 @@
 <template>
   <Layout>
-    <hero-skewed />
+
+    <hero />
 
     <main class="max-w-screen-xl mx-auto">
       <love />
 
-      <section class="mt-20 max-w-xl text-xl font-fira text-gray-700 leading-snug">
+      <section class="mt-20 max-w-2xl">
         <p class="">
           Wir haben hochmoderne Videokonferenzsysteme in Pflegeheime gebracht, damit Sie unkompliziert und sicher mit  Ihren Angehörigen im Pflegeheim Kontakt aufnehmen können.
         </p>
       </section>
 
-      <section class="mt-8">
-        <h2 class="text-xl font-fira text-gray-700 leading-snug">So funktioniert es:</h2>
+      <section class="mt-32">
+        <h2>So funktioniert es:</h2>
         <step counter="1" title="" uri="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex odit accusamus temporibus eius inventore reiciendis deleniti eligendi culpa veritatis commodi neque aliquam facere alias explicabo amet, voluptas, ab mollitia. Cum.
         </step>
@@ -24,23 +25,22 @@
         </step>
       </section>
     </main>
+
   </Layout>
 </template>
 
 <script>
-import HeroSkewed from '~/components/HeroSkewed.vue'
+import Hero from "~/components/Hero.vue"
 import Love from "~/components/Love.vue"
 import Step from "~/components/Step.vue"
 export default {
-  metaInfo: {
-    title: 'About us'
-  },
   components: {
-    HeroSkewed,
+    Hero,
     Love,
-    Step
+    Step,
+  },
+  metaInfo: {
+    title: 'Herzknopf'
   }
-
-
 }
 </script>
