@@ -3,9 +3,7 @@
     <hero-skewed />
 
     <main class="max-w-screen-xl mx-auto">
-      vor love
       <love class="mt-64" />
-      nach love
 
       <section class="mt-20 max-w-2xl">
         <p class="">

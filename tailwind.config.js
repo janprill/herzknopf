@@ -10,6 +10,9 @@ module.exports = {
     height: {
       'xl': '36rem',
     },
+    borderRadius: {
+      'large': '1rem',
+    },
     extend: {},
   },
   variants: {},
