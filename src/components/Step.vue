@@ -10,10 +10,10 @@
           <div class="relative text-center mx-auto md:ml-0">
             <div class="absolute top-0 left-0">
               <div class="hidden lg:block">
-                <font-awesome :icon="['far', 'heart']" size="10x" style="color: red; filter: drop-shadow(8px 4px 4px #666);" />
+                <i class="far fa-heart fa-10x" style="color: red; filter: drop-shadow(8px 4px 4px #666);"></i>
               </div>
               <div class="block lg:hidden">
-                <font-awesome :icon="['far', 'heart']" size="6x" style="color: red; filter: drop-shadow(8px 4px 4px #666);" />
+                <i class="far fa-heart fa-6x" style="color: red; filter: drop-shadow(8px 4px 4px #666);"></i>
               </div>
             </div>
             <div class="absolute top-5 left-7 lg:top-13 lg:left-16 pl-2 text-shadow text-4xl font-black font-fira text-red-600">
