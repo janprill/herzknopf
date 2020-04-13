@@ -10,8 +10,8 @@
         </h3>
       </div>
 
-      <div class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
-        <div class="relative mx-auto w-full rounded-large shadow-xl">
+      <div class="mt-12 p-2 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
+        <div class="relative mx-auto w-full rounded-lg shadow-xl">
           <img class="w-full rounded" src="https://images.unsplash.com/photo-1534768654272-e97681c3a2c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Woman making a sale" />
         </div>
       </div>
