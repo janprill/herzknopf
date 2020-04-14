@@ -23,7 +23,7 @@ export default function (Vue, { router, head, isClient }) {
     body: true
   })
 
-
-
+  // Add attributes to BODY tag
+  head.bodyAttrs = { class: 'bg-red-900' }
 }
 
